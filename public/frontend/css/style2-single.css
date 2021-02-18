@@ -1,0 +1,87 @@
+/* Position the image container (needed to position the left and right arrows) */
+.view-img{
+    padding-left: 9%;
+    float: left;
+    width: 25%;
+    margin-bottom: 1%
+}
+.img-sp {
+  position: relative;
+}
+.ckProduct {
+    float: left;
+    width: 335px;
+    font: 14px/20px "Roboto",Helvetica,Arial,sans-senif;
+}
+.ckProduct .titile {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px solid #eaeaea;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size:12px;
+}
+.ckProduct .titile span {
+    color: #f44336;
+}
+.ckProduct .deCk {
+    background: #f6f6f6 none repeat scroll 0 0;
+    clear: both;
+    display: table;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-top: 8px;
+    width: 330px;
+}
+.ckProduct .icon:before {
+    color: #666;
+    display: block;
+    float: left;
+    font-family: "FontAwesome";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 11px;
+    padding-right: 2px;
+    text-align: center;
+    width: 43px;
+}
+.deCkTtct .icon:before {
+    content: "\f1f0";
+}
+.deCkTtct .ttCK {
+    display: block;
+    float: left;
+    width: 235px;
+}
+.deCkTtct .ttCK b
+{
+    color:#f44336;
+}
+.deCkGhMpTq .icon:before {
+    content: "\f0d1";
+}
+.deCkGhMpTq .ttCK, .deCkHln .ttCK {
+    line-height: 40px;
+}
+.deCkHln .icon:before {
+    content: "\f087";
+}
+.deCkHlndt .icon:before {
+    content: "\f1b8";
+}
+.deCkTlnq .icon:before {
+    content: "\f06b";
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
